@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+    <userlist>
+	    <user>
+		    <name>Mr xyz</name>
+			<mobile>989898989</mobile>
+			<city>Banglore</city>
+			<pincode>8585</pincode>
+			<image>1.jpg</image>
+		 
+		</user>
+	
+	    <user>
+		    <name>Mr ABC</name>
+			<mobile>7777777</mobile>
+			<city>Pune</city>
+			<pincode>8585865</pincode>
+		    <image>2.jpg</image>
+		</user>
+		
+		<user>
+		    <name>Mr PQR</name>
+			<mobile>989898989</mobile>
+			<city>Banglore</city>
+			<pincode>8585</pincode>
+		    <image>3.jpg</image>
+		</user>
+		
+		<user>
+		    <name>Mr RAM</name>
+			<mobile>989898989</mobile>
+			<city>Banglore</city>
+			<pincode>8585</pincode>
+		    <image>4.jpg</image>
+		</user>
+		
+		<user>
+		    <name>Mr Shyam</name>
+			<mobile>9473355301</mobile>
+			<city>Banglore</city>
+			<pincode>8585</pincode>
+		    <image>4.jpg</image>
+		</user>
+	
+	
+	
+	
+	</userlist>

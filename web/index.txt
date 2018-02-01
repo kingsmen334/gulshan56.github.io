@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/angular.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/login.js"></script>
+		<style>
+			i{color:red;}
+		</style>
+	</head>
+	<body ng-app="userLogin">
+		<br>
+		<div class="container" ng-controller="userAuth">
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6 well text-center">
+				<i>{{message}}</i>
+					<?php
+						session_start();
+						if(isset($_SESSION['MSG']))
+						{
+							echo $_SESSION['MSG'];
+							unset($_SESSION['MSG']); 
+						}
+					?>
+						<h3 class="text-center"> Login</h3>
+						<div class="form-group">
+							<label> Email</label>
+						<input type="text" ng-model="login.email" class="form-control">
+						<i>{{emailerror}}</i>
+						</div>
+						<div class="form-group">
+							<label> Password</label>
+				<input type="password" ng-model="login.password" class="form-control">
+						<i>{{passworderror}}</i>
+						</div>
+						<div class="form-group text-center">
+		<button class="btn btn-success" ng-click="usercheck()"> Login </button>
+							<hr>
+							<a href="signup.php">Register</a>
+						</div>
+				</div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</body>
+</html>
