@@ -1,0 +1,26 @@
+.owl-carousel img{
+transform:skewX(-10deg);	
+
+}
+nav{
+	background:black;
+	color:white;
+	font-size:30px;
+}
+.pagecontent{
+	font-size:20px;
+	
+}
+.icontext h5{
+	font-weight:bold;
+}
+.content span{
+	font-weight:bold;
+}
+.content hr{
+	border-color:yellow;
+}
+.content img{
+	width:100px;
+	height:100px;
+}
